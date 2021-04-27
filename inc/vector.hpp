@@ -17,7 +17,7 @@ class vectorClass
     int current;
 
 public:
-    //kontruktor domyslny
+    //kontruktor 
     vectorClass()
     {
         array = new int[1];
