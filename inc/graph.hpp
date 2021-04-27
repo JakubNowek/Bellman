@@ -32,7 +32,7 @@ public:
         this->densityGraph = density;
         this->edgesGraph = (density * (vertices - 1) * vertices) / 2;
     }
-    Graph(int vertices, int edges, double density) //przeci¹¿enie konstruktora grafu, gdy odane zostaj¹ krawêdzie
+    Graph(int vertices, int edges, double density) //przeci¹¿enie konstruktora grafu, gdy podane zostaj¹ krawêdzie
     {
         this->verticesGraph = vertices;
         this->densityGraph = density;
